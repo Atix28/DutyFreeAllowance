@@ -11,7 +11,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: Text('SL Duty Free Allowance'),
         ),
-        body: Card(child: Column(children: <Widget>[
+        body:new Center(child: Column(children: <Widget>[
           Image.asset('assets/Dutyfree.webp'),
           Text('Food Paradise')
           
@@ -23,7 +23,7 @@ class App extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Text('Drawer Header'),
+              child: Text('Menu'),
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
